@@ -1,0 +1,14 @@
+Build out the nomadicasim website 
+
+ [x] remove the domain from netlify and delete site from deno deploy
+ [x] setup nomadicasim.com domain on netlify 
+ [x] change title to nomadicasim and ensure reflects on main 
+ [x] setup tailwindcss
+ [x] setup the nav 
+ [] setup the hero section 
+   [x] add the background image 
+   [] position the background image 
+ [x] setup basic blog posts
+ [] create a top blog posts section 
+ [] figure out site wide styling in tailwindcss
+
