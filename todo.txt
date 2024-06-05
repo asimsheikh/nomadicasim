@@ -11,4 +11,5 @@ Build out the nomadicasim website
  [x] setup basic blog posts
  [] create a top blog posts section 
  [] figure out site wide styling in tailwindcss
+ [] create the PhotoGrid
 
