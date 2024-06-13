@@ -9,7 +9,6 @@ pubDate: 2022-06-11
 tags: []
 layout: ../../components/PageLayout.astro
 ---
-
 ## What would Indiana Jones do?
 Becoming an adventurer in the Maghreb
 

@@ -1,3 +1,6 @@
+---
+import '@fontsource-variable/roboto-serif';
+---
 
 <html lang="en">
 	<head>
@@ -7,7 +10,7 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>nomadicasim.com</title>
 	</head>
-	<body>
+	<body class="font-serif text-md text-gray-700">
 		<nav class="bg-red-300 flex justify-between">
 			<a href="/">nomadicasim</a>
 			<div>
@@ -15,6 +18,8 @@
 				<a href="/about">About</a>
 			</div>
 		</nav>
-        <slot />
+		<div class="mx-8 space-y-3 leading-loose">
+			<slot />
+		</div>
 	</body>
 </html>
