@@ -2,75 +2,97 @@
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>nomadicasim.com</title>
-	</head>
-	<body>
-		<div class="bg-no-repeat bg-green-400 text-white" style="background-position: bottom center; background-size: cover; background-image: linear-gradient(#0000008a, #00000069), url('../images/lac_blanc.jpg');">
-			<nav class="flex pt-12 justify-between px-32">
-				<a href="/"><span class="font-bold">nomadic</span>asim</a>
-				<div class="flex gap-5">
-					<a href="/blog">blog</a>
-					<a href="/about">about</a>
-				</div>
-			</nav>
-			<section class='pt-20 pb-32 pl-32'>
-				<h1 class="text-8xl font-bold">A seeker</h1>
-				<h1 class="text-8xl font-bold">A learner</h1>
-				<h1 class="text-8xl font-bold">An explorer</h1>
-				<p class="text-3xl opacity-45 font-semibold pt-12">A four day trip that turned into 10 years on the road</p>
-			</section>
-			<div class="flex gap-2 justify-center pb-20">
-				<section class="pt-10 pb-10 pl-10 pr-10 m-2 font-bold text-2xl bg-slate-400 bg-opacity-25">3200 days on the road</section>
-				<section class="pt-10 pb-10 pl-10 pr-10 m-2 font-bold text-2xl bg-slate-400 bg-opacity-25">70 countries travelled</section>
-				<section class="pt-10 pb-10 pl-10 pr-10 m-2 font-bold text-2xl bg-slate-400 bg-opacity-25">3 near death experiences</section>
-			</div>
-		</div>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <meta name='viewport' content='width=device-width' />
+    <meta name='generator' content={Astro.generator} />
+    <title>nomadicasim.com</title>
+  </head>
+  <body>
+    <div
+      class='text-white bg-green-400 bg-no-repeat'
+      style="background-position: bottom center; background-size: cover; background-image: linear-gradient(#0000008a, #00000069), url('../images/lac_blanc.jpg');"
+    >
+      <nav class='flex justify-between px-32 pt-12'>
+        <a href='/'><span class='font-bold'>nomadic</span>asim</a>
+        <div class='flex gap-5'>
+          <a href='/blog'>blog</a>
+          <a href='/about'>about</a>
+        </div>
+      </nav>
+      <section class='pt-20 pb-32 pl-32'>
+        <h1 class='font-bold text-8xl'>A seeker</h1>
+        <h1 class='font-bold text-8xl'>A learner</h1>
+        <h1 class='font-bold text-8xl'>An explorer</h1>
+        <p class='pt-12 text-3xl font-semibold opacity-45'>
+          A four day trip that turned into 10 years on the road
+        </p>
+      </section>
+      <div class='flex justify-center gap-2 pb-20'>
+        <section
+          class='pt-10 pb-10 pl-10 pr-10 m-2 text-2xl font-bold bg-opacity-25 bg-slate-400'
+        >
+          3200 days on the road
+        </section>
+        <section
+          class='pt-10 pb-10 pl-10 pr-10 m-2 text-2xl font-bold bg-opacity-25 bg-slate-400'
+        >
+          70 countries travelled
+        </section>
+        <section
+          class='pt-10 pb-10 pl-10 pr-10 m-2 text-2xl font-bold bg-opacity-25 bg-slate-400'
+        >
+          3 near death experiences
+        </section>
+      </div>
+    </div>
 
-		<section class="flex gap-2 flex-col bg-orange-300 p-10">
-			<p>Posts</p>
-			<div class="bg-blue-200 flex gap-2 justify-center mx-10">
-				<article class="bg-slate-400 flex-1">
-					<p>Insights from Vipassana</p>
-					<p>Serving in the 10 day gave me an insight into my next plan</p>
-				</article>
-				<article class="bg-slate-400 flex-1">
-					<p>Insights from Vipassana</p>
-					<p>Serving in the 10 day gave me an insight into my next plan</p>
-				</article>
-				<article class="bg-slate-400 flex-1">
-					<p>Insights from Vipassana</p>
-					<p>Serving in the 10 day gave me an insight into my next plan</p>
-				</article>
-			</div>
-		</section>
+    <section class='flex flex-col gap-2 p-10 bg-orange-300'>
+      <p>Posts</p>
+      <div class='flex justify-center gap-2 mx-10 bg-blue-200'>
+        <article class='flex-1 bg-slate-400'>
+          <p>Insights from Vipassana</p>
+          <p>Serving in the 10 day gave me an insight into my next plan</p>
+        </article>
+        <article class='flex-1 bg-slate-400'>
+          <p>Insights from Vipassana</p>
+          <p>Serving in the 10 day gave me an insight into my next plan</p>
+        </article>
+        <article class='flex-1 bg-slate-400'>
+          <p>Insights from Vipassana</p>
+          <p>Serving in the 10 day gave me an insight into my next plan</p>
+          <img src='../images/rico.jpg' alt='' />
+        </article>
+      </div>
+    </section>
 
-		<section class="">
-			<p class="py-8 pl-8 font-bold text-4xl text-gray-900">Some images..</p>
-			<div class="grid gap-4 grid-cols-5 px-8 grid-flow-dense">
-				<img src="../images/bagan.jpg" alt="">
-				<img src="../images/bled.jpg" alt="">
-				<img src="../images/borobudur.jpg" alt="">
-				<img src="../images/frieberg.jpg" alt="" class="row-span-3 object-contain">
-				<img src="../images/japan.jpg" alt="">
-				<img src="../images/arches.jpg" alt="" class="row-span-3">
-				<img src="../images/japan2.jpg" alt="">
-				<img src="../images/karaween.jpg" alt="" class="row-span-3">
-				<img src="../images/lac_blanc.jpg" alt="">
-				<img src="../images/poland.jpg" alt="" class="row-span-3">
-				<img src="../images/matterhorn.jpg" alt="" class="row-span-3">
-				<img src="../images/muaythai.jpg" alt="">
-				<img src="../images/pagoda.jpg" alt="">
-				<img src="../images/scotland_cows.jpg" alt="">
-				<img src="../images/stonehenge.jpg" alt="">
-				<img src="../images/zermatt.jpg" alt="">
-				<img src="../images/vanlife.jpg" alt="">
-			</div>
-		</section>
-	</body>
+    <section class=''>
+      <p class='py-8 pl-8 text-4xl font-bold text-gray-900'>Some images..</p>
+      <div class='grid grid-cols-5 gap-4 px-8 grid-flow-dense'>
+        <img src='../images/bagan.jpg' alt='' />
+        <img src='../images/bled.jpg' alt='' />
+        <img src='../images/borobudur.jpg' alt='' />
+        <img
+          src='../images/frieberg.jpg'
+          alt=''
+          class='object-contain row-span-3'
+        />
+        <img src='../images/japan.jpg' alt='' />
+        <img src='../images/arches.jpg' alt='' class='row-span-3' />
+        <img src='../images/japan2.jpg' alt='' />
+        <img src='../images/karaween.jpg' alt='' class='row-span-3' />
+        <img src='../images/lac_blanc.jpg' alt='' />
+        <img src='../images/poland.jpg' alt='' class='row-span-3' />
+        <img src='../images/matterhorn.jpg' alt='' class='row-span-3' />
+        <img src='../images/muaythai.jpg' alt='' />
+        <img src='../images/pagoda.jpg' alt='' />
+        <img src='../images/scotland_cows.jpg' alt='' />
+        <img src='../images/stonehenge.jpg' alt='' />
+        <img src='../images/zermatt.jpg' alt='' />
+        <img src='../images/vanlife.jpg' alt='' />
+      </div>
+    </section>
+  </body>
 </html>
